@@ -1,5 +1,5 @@
 # CS-400-Computer-Programming
-This repository contains projects and assignments from CS 400.
+This repository contains projects and assignments/activities from CS 400. Projects are more large scale, and typically will use specific data types to keep track of all the information. These projects are partially student lead and partially directed by specifications, with increasing freedoms as project numbers increase. Activies are smaller scaled and more specific in terms of specifications. 
 
 The projects in this course were done in small, 4 person teams. Each person would be designated a specific role, Frontend Development, Backend Development, Data Wrangler, or Integration Manager. 
 
