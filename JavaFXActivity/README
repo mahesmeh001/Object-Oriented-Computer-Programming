@@ -1,0 +1,8 @@
+Activity Description: 
+Call the setTitle method on the stage parameter within the start method. This method can be passed a string value that will be displayed as the window's title. For this activity, pass the string "CS400: The Key".
+Next create a Label object and pass the following quote as a single string argument into the Label constructor. There are four spaces at the beginning of each line to help center this quote. In order to see this label when your program runs, you'll need to pass your label reference into the Group constructor that is already being called within the start method.
+"    The key to making programs fast\n" +
+"    is to make them do practically nothing.\n" +
+"    -- Mike Haertel"
+Next we'll add some more graphics to this graphical user interface (GUI). Create a new circle object by passing the arguments: 160, 120, 30 into the Circle constructor. This will create a circle with a radius of 30 px in the center of the window. In order to see this circle, you'll need to pass a reference to it into the Group constructor that you are already passing your label reference into. Don't worry, the Group constructor can take as many references as you need, just separate them by commas.
+Finally, we'll add a triangle over the circle so that it looks a bit like an old fashioned key hole. Create a new Polygon object for this, and pass the following corner coordinates into its constructor: 160, 120, 200, 220, 120, 220. Like the label and circle before this, you'll need to pass a reference to this Polygon to the Group constructor before you will be able to see it within the running application.
