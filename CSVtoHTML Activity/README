@@ -1,0 +1,17 @@
+Project Working:
+https://pages.cs.wisc.edu/~mmaheshwari/cgi_activity/csv.cgi
+
+Activity Directions:
+Switch to the directory cgi_activity. It contains:
+a Makefile: use the targets (build, run, upload, clean) in this file to build, run, and upload your code. When compiling your code, the compiler might show you warnings related to the version of Java (7) that we are using for this activity. You can ignore those warnings. The target upload will upload the data file, the CGI script, and your compiled Java class file into your CSL home to make it accessible to the department web server. For this, it uses the script in the file upload. Please do not edit the Makefile or the upload script.
+a data file: Called data.csv and contains the table to convert to HTML in the CSV format. The example data set contains records of the nutritional values of different cereal brands.
+a CGI script: this script (in the file csv.cgi) contains Bash (command line) commands that will run your Java program on the web server.
+Java starter code: the file CSVTOHTML.java contains starter code. This is the file that you have to edit and add your own code to for this activity.
+Open the CSVTOHTML.java file in your favorite editor, and write code to convert the contents of the CSV file to an HTML table. The file contains a method readAll() that will read in a CSV file and returns a list of the data rows in that file, represented as String arrays. You can use the data structure returned by the readAll() method as the basis for your implementation of the HTML table.
+You can use to following reference to read about the structure and syntax of HTML tables:
+https://www.w3schools.com/html/html_tables.asp 
+Use System.out.print/println (similar to the example code in the main method) calls to output your HTML code. This output will later be redirected to the web server by the CGI script and sent to the web browser.
+You can compile and run your code with the provided Makefile (and the targets build (default) and run). Make sure you always use the Makefile for this so that the code gets built for the right version of Java (this is necessary so that it will run on the web server).
+After you have your code ready, you can upload it to the department web server to make it available on the web. To do this, use the Makefile target upload. It will transfer your program and all necessary files into your home directory (under ~/public/html-s/cgi-activity) after asking you for your CSL login and password.
+After the upload, you can access your program (replace <CSL username> with your CSL username and leave the tilde (~) in place) at https://pages.cs.wisc.edu/~<CSL username>/cgi_activity/csv.cgi
+You can upload as often as you want, we will grade your latest upload. (optional) When displaying your table, your browser will use its default style (because we haven't provided one with the HTML document). This is likely not the most visually appealing way to display the table. If you want you can embellish your table visually by including CSS in your generated HTML code. For this, just add a <style> element in the <head> of the generated HTML. 
