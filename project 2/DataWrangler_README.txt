@@ -16,6 +16,7 @@ DataWranglerTests() - a JUnit test class for the FlightDataReader class
 Additional Contributions:
 -------------------------
 Assistance with backend code development; provided refernce for this projects Backend. 
+Provided assitance with frontend code development. 
 
 Signature:
 ----------
