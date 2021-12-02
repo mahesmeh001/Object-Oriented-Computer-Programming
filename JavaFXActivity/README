@@ -1,3 +1,5 @@
+This folder contains a screenshot showing the program working. 
+
 Activity Description: 
 Call the setTitle method on the stage parameter within the start method. This method can be passed a string value that will be displayed as the window's title. For this activity, pass the string "CS400: The Key".
 Next create a Label object and pass the following quote as a single string argument into the Label constructor. There are four spaces at the beginning of each line to help center this quote. In order to see this label when your program runs, you'll need to pass your label reference into the Group constructor that is already being called within the start method.
