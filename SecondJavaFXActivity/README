@@ -1,3 +1,6 @@
+Project working:
+https://pages.cs.wisc.edu/~mmaheshwari/dessertInTheDesertGame.html
+
 Project requirements are as follows:
 This activity will involve implementing a game that is very similar to the "Dessert in the Desert Game" from your JavaScript Activity but doing so directly within JavaFX. Your solution to this assignment should be written entirely in Java using JavaFX, and CANNOT lad or make use of any HTML or JavaScript.
 1. Change the window title for this application to "Dessert in the Desert JavaFX Game". Update the dimensions of your scene to be 640 pixels wide by 480 pixels tall.
