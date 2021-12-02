@@ -6,3 +6,5 @@ The projects in this course were done in small, 4 person teams. Each person woul
 Each project has a README file which summarizes the projects specifics. 
 
 Project 2 is especially notable because I pioneered the idea which lead to the project, and provided assitance to both the frontend and backend developers while completing my role as the data wrangler. 
+
+Project 3 contains a video demonstrating its usage. 
