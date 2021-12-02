@@ -22,3 +22,6 @@ https://pages.cs.wisc.edu/~mmaheshwari/dessertInTheDesertGame.html
 
 There is a CGI to HTML activity which can also be seen working through a webpage, linked here:
 https://pages.cs.wisc.edu/~mmaheshwari/cgi_activity/csv.cgi
+
+An aptly named "HTML Activity" can be found working under this link:
+https://pages.cs.wisc.edu/~mmaheshwari/cs400_spring21_webpage.html
