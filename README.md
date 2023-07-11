@@ -1,4 +1,4 @@
-# Object Oriented Computer-Programming
+# Object Oriented Computer Programming
 This repository contains projects and assignments/activities from CS 400. Projects are more large scale, and typically will use specific data types to keep track of all the information. These projects are partially student lead and partially directed by specifications, with increasing freedoms as project numbers increase. Activies are smaller scaled and more specific in terms of specifications. 
 
 COURSE CONTENT:
